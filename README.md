@@ -1,3 +1,9 @@
+# This is Sample Application
+
+Created with http://railstutorial.org
+
+#@ Author : Mallikarjuna
+
 == README
 
 This README would normally document whatever steps are necessary to get the
