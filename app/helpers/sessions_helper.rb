@@ -22,11 +22,6 @@ module SessionsHelper
 		!current_user.nil?
 	end
 
-	def destroy
-		sign_out
-		redirect_to root_url
-	end
-
 	def sign_out
 		current_user.update_attribute(:remember_token,
 																	User.digest(User.new_remember_token))
