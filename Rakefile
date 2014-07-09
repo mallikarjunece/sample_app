@@ -3,4 +3,6 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-SampleApp::Application.load_tasks
+#require File.available
+
+Rails.application.load_tasks
