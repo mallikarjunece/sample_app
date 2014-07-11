@@ -174,11 +174,6 @@ GEM
       sprockets-rails (~> 2.0)
     rails-footnotes (4.0.0)
       rails (>= 3.2)
-    rails_12factor (0.0.2)
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_serve_static_assets (0.0.2)
-    rails_stdout_logging (0.0.3)
     railties (4.1.0)
       actionpack (= 4.1.0)
       activesupport (= 4.1.0)
@@ -285,10 +280,9 @@ DEPENDENCIES
   jquery-rails
   libnotify (= 0.8.0)
   mysql2
-  pg (= 0.15.1)
+  pg
   rails
   rails-footnotes
-  rails_12factor (= 0.0.2)
   rspec-rails
   sass-rails
   sdoc (= 0.3.20)

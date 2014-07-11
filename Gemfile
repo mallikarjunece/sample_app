@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle
 gem 'rails-footnotes'
 gem 'mysql2'
+gem 'pg'
 gem 'spring'
 gem 'rails'
 gem 'bootstrap-sass'
@@ -37,5 +38,5 @@ gem 'libnotify', '0.8.0'
 gem 'forem', :github => "radar/forem", :branch => "rails4"
 gem 'sdoc', '0.3.20', require: false
 
-gem 'pg', '0.15.1'
-gem 'rails_12factor', '0.0.2'
+#gem 'pg', '0.15.1'
+#gem 'rails_12factor', '0.0.2'
