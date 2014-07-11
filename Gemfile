@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle
 gem 'rails-footnotes'
-gem 'mysql2'
+#gem 'mysql2'
 gem 'pg'
 gem 'spring'
 gem 'rails'
@@ -13,7 +13,7 @@ gem 'bcrypt-ruby'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'rspec-rails'
 # The following optional lines are part of the advanced setup.
 gem 'guard-rspec'
